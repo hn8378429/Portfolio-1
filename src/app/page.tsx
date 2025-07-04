@@ -104,7 +104,7 @@ export default function Portfolio() {
             <a href="https://github.com/hn8378429" target="_blank" rel="noopener noreferrer" className="hover:text-black" aria-label="GitHub">
               <Github />
             </a>
-            <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" className="hover:text-black" aria-label="LinkedIn">
+            <a href="https://www.linkedin.com/in/hassan-nasir-ab1ba32b5/" target="_blank" rel="noopener noreferrer" className="hover:text-black" aria-label="LinkedIn">
               <Linkedin />
             </a>
           </div>
