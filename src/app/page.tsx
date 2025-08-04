@@ -38,26 +38,29 @@ export default function Portfolio() {
       {/* Skills */}
       <section className="py-20 px-6 bg-gray-100">
         <h2 className="text-3xl font-bold mb-6 text-center">Skills</h2>
-        <div className="grid grid-cols-3 gap-6 max-w-3xl mx-auto text-center">
+
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-6 max-w-3xl mx-auto text-center">
           {["HTML", "CSS", "JavaScript"].map(skill => (
             <div
               key={skill}
-              className="bg-white p-4 shadow rounded-xl transform transition-transform duration-300 hover:-translate-y-2 hover:bg-indigo-50 cursor-pointer"
+              className="bg-white p-4 shadow rounded-xl transform transition-transform duration-300 hover:-translate-y-2 hover:bg-indigo-50 cursor-pointer break-words"
             >
               {skill}
             </div>
           ))}
         </div>
-        <div className="grid grid-cols-3 gap-6 max-w-3xl mx-auto text-center mt-6">
+
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-6 max-w-3xl mx-auto text-center mt-6">
           {["TypeScript", "Next.js", "Python"].map(skill => (
             <div
               key={skill}
-              className="bg-white p-4 shadow rounded-xl transform transition-transform duration-300 hover:-translate-y-2 hover:bg-indigo-50 cursor-pointer"
+              className="bg-white p-4 shadow rounded-xl transform transition-transform duration-300 hover:-translate-y-2 hover:bg-indigo-50 cursor-pointer break-words"
             >
               {skill}
             </div>
           ))}
         </div>
+
         <div className="max-w-sm mx-auto text-center mt-6">
           <div className="bg-yellow-100 text-yellow-800 p-4 shadow rounded-xl font-medium transform transition-transform duration-300 hover:-translate-y-2 cursor-pointer">
             Agentic AI (Learning)
